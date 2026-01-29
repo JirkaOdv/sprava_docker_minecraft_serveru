@@ -26,8 +26,8 @@ A modern, feature-rich web panel for managing Minecraft servers with RCON and SS
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mc-server-boss.git
-   cd mc-server-boss
+   git clone https://github.com/JirkaOdv/sprava_docker_minecraft_serveru.git
+   cd sprava_docker_minecraft_serveru
    ```
 
 2. **Configure environment**
@@ -201,8 +201,8 @@ MIT License - see LICENSE file for details
 
 ## 📧 Support
 
-- Issues: [GitHub Issues](https://github.com/yourusername/mc-server-boss/issues)
-- Discussions: [GitHub Discussions](https://github.com/yourusername/mc-server-boss/discussions)
+- Issues: [GitHub Issues](https://github.com/JirkaOdv/sprava_docker_minecraft_serveru/issues)
+- Discussions: [GitHub Discussions](https://github.com/JirkaOdv/sprava_docker_minecraft_serveru/discussions)
 
 ---
 
