@@ -8,7 +8,7 @@ SSH_HOST = os.environ.get('SSH_HOST', '192.168.0.121')
 SSH_PORT = int(os.environ.get('SSH_PORT', 22))
 SSH_USER = os.environ.get('SSH_USER', 'root')
 SSH_KEY_PATH = os.environ.get('SSH_KEY_PATH', '/root/.ssh/id_rsa') # Default in container?
-SSH_PASSWORD = os.environ.get('SSH_PASSWORD', 'Juraj12552')
+SSH_PASSWORD = os.environ.get('SSH_PASSWORD', 'your_ssh_password')
 
 print(f"Testing SSH connection to {SSH_USER}@{SSH_HOST}:{SSH_PORT}...")
 

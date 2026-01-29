@@ -177,7 +177,7 @@ services:
       - ./mc-panel/data:/app/data
     environment:
       - SECRET_KEY=vygeneruj_nahodny_retezec
-      - RCON_PASSWORD=Juraj12552
+      - RCON_PASSWORD=your_rcon_password
       - RCON_HOST=minecraft_server
       - RCON_PORT=25575
       - MC_CONTAINER_NAME=minecraft_server
