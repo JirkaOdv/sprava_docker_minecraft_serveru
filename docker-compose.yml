@@ -10,21 +10,20 @@ services:
     environment:
       # --- ZÁKLADNÍ KONFIGURACE ---
       - MOCK_MODE=False
-      - RCON_PASSWORD=S1N0server2021
-      - MC_CONTAINER_NAME=informatika
-
+      - RCON_PASSWORD=your_rcon_password_here
+      - MC_CONTAINER_NAME=minecraft_server
       # --- PŘÍMÉ PŘIPOJENÍ (pokud je server na stejné síti) ---
       # - RCON_HOST=192.168.1.100
       # - RCON_PORT=25575
 
       # --- SSH TUNEL (pokud se připojujete na server přes SSH) ---
       # Pokud toto vyplníte, RCON_HOST výše se ignoruje a používá se tunel
-      - SSH_HOST=192.168.40.103 # IP adresa serveru
-      - SSH_USER=root # SSH uživatel (např. root nebo jirka)
-      - SSH_PASSWORD=S1N0server2021 # SSH heslo
-      - REMOTE_RCON_HOST=127.0.0.1 # Kde naslouchá RCON z pohledu toho serveru (zvykle localhost)
-      - MC_LOG_PATH=/root/Docker/MC/petka/data/logs/latest.log
-      - MC_SERVER_PATH=/root/Docker/MC/petka/data
+      # - SSH_HOST=your.server.ip # IP adresa serveru
+      # - SSH_USER=root # SSH uživatel (např. root nebo jirka)
+      # - SSH_PASSWORD=your_ssh_password # SSH heslo
+      # - REMOTE_RCON_HOST=127.0.0.1 # Kde naslouchá RCON z pohledu toho serveru (zvykle localhost)
+      # - MC_LOG_PATH=/path/to/minecraft/logs/latest.log
+      # - MC_SERVER_PATH=/path/to/minecraft/data
 
     networks:
       - mc-network

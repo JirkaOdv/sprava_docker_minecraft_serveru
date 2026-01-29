@@ -1,9 +1,9 @@
 import paramiko
 import time
 
-HOST = "192.168.40.103"
+HOST = "your.server.ip"
 USER = "root"
-PASS = "S1N0server2021"
+PASS = "your_ssh_password"
 
 def find_log():
     print(f"Connecting to {HOST}...")
